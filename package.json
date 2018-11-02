@@ -1,0 +1,31 @@
+{
+	"name": "multiplication",
+	"version": "0.0.1",
+	"description": "The multiplication operation 7 ✖️ 3 = 21",
+	"license": "MIT",
+	"repository": "abranhe/multiplication",
+	"author": {
+		"name": "Abraham Hernandez",
+		"email": "abraham@abranhe.com",
+		"url": "abranhe.com"
+	},
+	"main": "index.js",
+	"bugs": {
+		"url": "https://github.com/abranhe/multiplication/issues"
+	},
+	"homepage": "https://projects.abranhe.com/multiplication",
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"math",
+		"multiplication"
+	],
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"xo": "^0.23.0"
+	}
+}
